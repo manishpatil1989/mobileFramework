@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Ignored tests",
+      "matchedStatuses": [ "skipped" ]
+    },
+    {
+      "name": "Passed tests", 
+      "matchedStatuses": ["passed"]
+    },
+    {
+      "name": "Infrastructure Issues",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*Command failed:.*"
+    },
+    {
+      "name": "Timeout Issues",
+      "matchedStatuses": [ "broken", "failed" ],
+      "messageRegex": ".*function timed out.*"
+    },
+    {
+      "name": "Test Envoirnment Issues",
+      "matchedStatuses": [ "broken", "failed" ],
+      "messageRegex": ".*Unable to Proceed.*"
+    },
+    {
+      "name": "Product Defects",
+      "matchedStatuses": [ "failed" ]
+    },
+    {
+      "name": "Element Not visible",
+      "traceRegex": ".*still not displayed.*"
+    },
+    {
+      "name": "Test Defects",
+      "messageRegex": ".*terrible exception.*",
+      "matchedStatuses": [ "broken" ]
+    }
+  ]

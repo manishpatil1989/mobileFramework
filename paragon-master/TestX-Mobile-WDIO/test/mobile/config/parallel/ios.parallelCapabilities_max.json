@@ -1,0 +1,102 @@
+{
+    "maxInstances" : 1,
+    "commonCapabilities" : {
+        "platformName": "iOS",
+        "appiumVersion": "1.22.2",
+        "automationName": "XCUITest",
+        "noReset": true,
+        "autoAcceptAlerts": true,
+        "app": "./apps/ios/TestApp.app",
+        "launchTimeout": 45000,
+        "nativeInstrumentsLib": true,
+        "newCommandTimeout": 30000,
+        "startIWDP": true,
+        "orientation": "PORTRAIT",
+        "connectHardwareKeyboard": false,
+        "clearSystemFiles": true,
+        "permissions": "{ \"com.pcloudy.appiumdemo\": { \"photos\": \"YES\", \"camera\": \"YES\", \"location\": \"always\", \"notifications\": \"YES\", \"userTracking\": \"YES\"}}"
+
+    },
+    "capabilities" : [
+        { 
+            "platformVersion": "15.2",
+            "deviceName" : "iPhone 13 - 1",
+            "wdaLocalPort": 8400,
+            "maxInstances": 5,
+            "proxyPort": 40003,
+            "httpProxyPort": 41003
+
+        },
+        {   
+            "platformVersion": "15.2",
+            "deviceName" : "iPhone 13 - 2",
+            "wdaLocalPort": 8401,
+            "maxInstances": 5,
+            "proxyPort": 40004,
+            "httpProxyPort": 41004
+            
+        },
+        {   
+            "platformVersion": "15.2",
+            "deviceName" : "iPhone 13 - 3",
+            "wdaLocalPort": 8402,
+            "maxInstances": 5,
+            "proxyPort": 40005,
+            "httpProxyPort": 41005
+        },
+        {
+            "platformVersion": "15.2",
+            "deviceName" : "iPhone 13 - 4",
+            "wdaLocalPort": 8403,
+            "maxInstances": 5,
+            "proxyPort": 40006,
+            "httpProxyPort": 41006
+        }
+       ],
+       "appiumConfig" : [
+           {
+            "address": "127.0.0.1",
+            "port" : 4423,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 30000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4424,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 30000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4425,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 30000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4426,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 30000
+        }
+       ]
+    }

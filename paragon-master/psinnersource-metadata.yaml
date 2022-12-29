@@ -1,0 +1,25 @@
+name: Mobile testing
+description: Paragon is a webdriverIO Cucumber based test automation framework for mobile apps that provides a standard mechanism for the configuration & running of test suites.
+subGroup: Functional Testing
+groupName: Quality Engineering
+productName: TESTx
+productOwners:
+  - "Indra Prabha Sharma - indra.sharma@publicissapient.com"
+productBacklogUrl:
+logo:
+urls:
+  - shortDescription: Code & Documentation
+    link: https://pscode.lioncloud.net/psinnersource/quality-engineering/tang-js/paragon 
+tags:
+  - "#QE"
+  - "#functional"
+  - "#testing"
+  - "#mobile"
+endorsements:
+  - "Lloyds Banking Group"
+upcomingFeatures:
+keyContacts:
+  - "Ashish Chowdhury - ashish.chowdhury@publicissapient.com"
+  - "Gokul R - gokul.r@publicissapient.com"
+benefits: To be added
+installationTime: To be added

@@ -1,0 +1,113 @@
+{
+    "maxInstances" : 1,
+    "commonCapabilities" : {
+        "platformName": "Android",
+        "appiumVersion": "1.22.2",
+        "deviceType": "phone",
+        "automationName": "UiAutomator2",
+        "noReset": true,
+        "autoAcceptAlerts": true,
+        "app": "./apps/android/TestApp.apk",
+        "appWaitPackage": "com.pcloudy.appiumdemo",
+        "appWaitDuration": 30000,
+        "appWaitForLaunch": true,
+        "uiautomator2ServerInstallTimeout": 180000,
+        "newCommandTimeout": 30000,
+        "skipServerInstallation": false,
+        "dontStopAppOnReset": false,
+        "show_on_first_run_allowed" : false,
+        "show_welcome_page": false,
+        "autoGrantPermissions": true,
+        "noSign": true,
+        "avdArgs": "-no-snapshot-load",
+        "uiautomator2ServerLaunchTimeout": 30000,
+        "adbExecTimeout": 180000,
+        "androidInstallTimeout": 180000,
+        "deviceReadyTimeout": 180,
+        "androidDeviceReadyTimeout": 180
+    },
+    "capabilities" : [
+        { 
+            "platformVersion": "29.0",
+            "deviceName" : "Pixel_2_API_29",
+            "avd" : "Pixel_2_API_29",
+            "systemPort": 8300,
+            "maxInstances": 5,
+            "proxyPort": 30003,
+            "httpProxyPort": 31003
+        },
+        {   
+            "platformVersion": "29.0",
+            "deviceName" : "Pixel_2_API_29_2",
+            "avd" : "Pixel_2_API_29_2",
+            "systemPort": 8301,
+            "maxInstances": 5,
+            "proxyPort": 30004,
+            "httpProxyPort": 31004
+        },
+        {   
+            "platformVersion": "29.0",
+            "deviceName" : "Pixel_2_API_29_3",
+            "avd" : "Pixel_2_API_29_3",
+            "systemPort": 8302,
+            "maxInstances": 5,
+            "proxyPort": 30005,
+            "httpProxyPort": 31005
+        },
+        {   
+            "platformVersion": "29.0",
+            "deviceName" : "Pixel_2_API_29_4",
+            "avd" : "Pixel_2_API_29_4",
+            "systemPort": 8303,
+            "maxInstances": 5,
+            "proxyPort": 30006,
+            "httpProxyPort": 31006
+        }
+       ],
+       "appiumConfig" : [
+           {
+            "address": "127.0.0.1",
+            "port" : 4323,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 180000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4324,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 180000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4325,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 180000
+        },
+        {
+            "address": "127.0.0.1",
+            "port" : 4326,
+            "commandTimeout":  30000,
+            "sessionOverride": true,
+            "debugLogSpacing": true,
+            "logTimestamp": true,
+            "localTimezone": true,
+            "preLaunch":true,
+            "deviceReadyTimeout": 180000
+        }
+       ]
+    }

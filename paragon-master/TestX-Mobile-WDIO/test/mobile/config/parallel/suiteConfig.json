@@ -1,0 +1,16 @@
+{
+  "suites": {
+    "suite1": [
+      "test/mobile/features/featureFiles/1.homeLanding/*.feature"
+    ],
+    "suite2": [
+      "test/mobile/features/featureFiles/1.homeLanding/*.feature"
+    ],
+    "suite3": [
+      "test/mobile/features/featureFiles/1.homeLanding/*.feature"
+    ],
+    "suite4": [
+      "test/mobile/features/featureFiles/1.homeLanding/*.feature"
+    ]
+  }
+}
